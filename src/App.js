@@ -20,8 +20,8 @@ const fetchme=()=>{
   fetch(`https://imdb8.p.rapidapi.com/auto-complete?q=+${endPoint}`,{
     "method": "GET",
     "headers": {
-      "X-RapidAPI-Key": "2d2203cfecmsh100d5348edf46f9p1fa3a2jsn4e0b6e0c471b",
-      "X-RapidAPI-Host":"imdb8.p.rapidapi.com"
+      "X-RapidAPI-Key": "Enter your Key that can avaliable in rapied api",
+      "X-RapidAPI-Host":"Enter your host ##3"
     }
   }).then(response=>{
     return response.json();
@@ -48,7 +48,7 @@ const fetchme=()=>{
    <header className='bg-blue-200 shadow-md'>
 <div className='flex justify-between items-center max-w-6xl mx-auto p-3'>
        <h1 className='font-bold text-sm sm:text-xl flex flex-wrap'>
-            <span className='text-black'>Siddhu</span>
+            <span className='text-black'>star</span>
             <span className='text-blue-500'>movie</span>
         </h1>
       <form className='bg-slate-100 p-3 rounded-lg flex items-center'>
